@@ -1,0 +1,6 @@
+framework module Pods_ClassActivityTests {
+  umbrella header "Pods-ClassActivityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
