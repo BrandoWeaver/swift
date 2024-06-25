@@ -1,11 +1,13 @@
-import UIKit
-//bottomBar branch
-class ViewController: UIViewController {
+import UIKit  // Import UIKit framework for iOS UI components
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .red
+import SnapKit  // Import SnapKit for concise Auto Layout DSL
+
+class ViewController: UIViewController {  // Define a view controller subclass
+    
+    override func viewDidLoad() {  // Called when the view controller's view is loaded into memory
+        super.viewDidLoad()  // Call the superclass's implementation of viewDidLoad()
+        view.backgroundColor = .white  // Set the background color of the view to white
         
+        _ = ButtonBar.createInView(view)  // Call the static method createInView from ButtonBar class, passing the current view as parameter and ignoring the return value
     }
 }
-
