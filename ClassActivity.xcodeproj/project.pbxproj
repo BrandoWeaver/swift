@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F35B55F2C2EE1A70042DDA8 /* CreateFolderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35B55E2C2EE1A70042DDA8 /* CreateFolderScreen.swift */; };
+		1F35B5612C2F802D0042DDA8 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35B5602C2F802D0042DDA8 /* NoteListViewController.swift */; };
 		1F5187A52C29BE110084A605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5187A42C29BE110084A605 /* AppDelegate.swift */; };
 		1F5187A72C29BE110084A605 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5187A62C29BE110084A605 /* SceneDelegate.swift */; };
 		1F5187A92C29BE110084A605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5187A82C29BE110084A605 /* ViewController.swift */; };
@@ -17,7 +19,12 @@
 		1F5187C62C29BE140084A605 /* ClassActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5187C52C29BE140084A605 /* ClassActivityUITests.swift */; };
 		1F5187C82C29BE140084A605 /* ClassActivityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5187C72C29BE140084A605 /* ClassActivityUITestsLaunchTests.swift */; };
 		1F5187DF2C29C4780084A605 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5187DE2C29C4780084A605 /* LoginViewController.swift */; };
+		1F560C932C2D902800F77C23 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F560C922C2D902800F77C23 /* KeychainManager.swift */; };
+		1F560C952C2D99DC00F77C23 /* LoginViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F560C942C2D99DC00F77C23 /* LoginViewController1.swift */; };
+		1F560C972C2DA07300F77C23 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F560C962C2DA07300F77C23 /* MainViewController.swift */; };
 		1FCB832C2C2B383B0093A0BF /* ButtonBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB832B2C2B383B0093A0BF /* ButtonBar.swift */; };
+		1FCB832F2C2B3B670093A0BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB832E2C2B3B670093A0BF /* SettingViewController.swift */; };
+		1FCB83322C2B3B8A0093A0BF /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB83312C2B3B8A0093A0BF /* FolderViewController.swift */; };
 		2703AD1A072519AD80497ED3 /* Pods_ClassActivity_ClassActivityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79ECED2191C4288B9C92E5A /* Pods_ClassActivity_ClassActivityUITests.framework */; };
 		C95FBAEA6D9869E30783D2F3 /* Pods_ClassActivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C1E4F4A7050DAA65319600 /* Pods_ClassActivityTests.framework */; };
 		D5E6EFDDE3ECE54371712AFA /* Pods_ClassActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AD14ABBE420DF528317CA8 /* Pods_ClassActivity.framework */; };
@@ -42,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		0B6E8BA8A3E266D092833F6A /* Pods-ClassActivity-ClassActivityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassActivity-ClassActivityUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClassActivity-ClassActivityUITests/Pods-ClassActivity-ClassActivityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F35B55E2C2EE1A70042DDA8 /* CreateFolderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFolderScreen.swift; sourceTree = "<group>"; };
+		1F35B5602C2F802D0042DDA8 /* NoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
 		1F5187A12C29BE110084A605 /* ClassActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5187A42C29BE110084A605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F5187A62C29BE110084A605 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +65,12 @@
 		1F5187C52C29BE140084A605 /* ClassActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassActivityUITests.swift; sourceTree = "<group>"; };
 		1F5187C72C29BE140084A605 /* ClassActivityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassActivityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F5187DE2C29C4780084A605 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F560C922C2D902800F77C23 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		1F560C942C2D99DC00F77C23 /* LoginViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController1.swift; sourceTree = "<group>"; };
+		1F560C962C2DA07300F77C23 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1FCB832B2C2B383B0093A0BF /* ButtonBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBar.swift; sourceTree = "<group>"; };
+		1FCB832E2C2B3B670093A0BF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1FCB83312C2B3B8A0093A0BF /* FolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; };
 		29623483170D96654231964A /* Pods-ClassActivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassActivityTests.release.xcconfig"; path = "Target Support Files/Pods-ClassActivityTests/Pods-ClassActivityTests.release.xcconfig"; sourceTree = "<group>"; };
 		5CDF67871948B95E0619AD15 /* Pods-ClassActivity-ClassActivityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassActivity-ClassActivityUITests.release.xcconfig"; path = "Target Support Files/Pods-ClassActivity-ClassActivityUITests/Pods-ClassActivity-ClassActivityUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6DCD0056936BB1C7E2A0FE55 /* Pods-ClassActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassActivity.debug.xcconfig"; path = "Target Support Files/Pods-ClassActivity/Pods-ClassActivity.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +134,7 @@
 		1F5187A32C29BE110084A605 /* ClassActivity */ = {
 			isa = PBXGroup;
 			children = (
+				1F560C912C2D900000F77C23 /* class */,
 				1F5187B22C29BE130084A605 /* Info.plist */,
 				1F5187DC2C29C4060084A605 /* screen */,
 				1F5187DB2C29C3D30084A605 /* configuration */,
@@ -150,6 +165,8 @@
 		1F5187D82C29C3750084A605 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1FCB83302C2B3B790093A0BF /* Folder */,
+				1FCB832D2C2B3B580093A0BF /* Setting */,
 				1FCB832A2C2B38130093A0BF /* ButtonBar */,
 				1F5187E12C29C48F0084A605 /* Main */,
 				1F5187E02C29C4830084A605 /* Login */,
@@ -194,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				1F5187DE2C29C4780084A605 /* LoginViewController.swift */,
+				1F560C942C2D99DC00F77C23 /* LoginViewController1.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -202,8 +220,17 @@
 			isa = PBXGroup;
 			children = (
 				1F5187A82C29BE110084A605 /* ViewController.swift */,
+				1F560C962C2DA07300F77C23 /* MainViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		1F560C912C2D900000F77C23 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				1F560C922C2D902800F77C23 /* KeychainManager.swift */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 		1FCB832A2C2B38130093A0BF /* ButtonBar */ = {
@@ -212,6 +239,24 @@
 				1FCB832B2C2B383B0093A0BF /* ButtonBar.swift */,
 			);
 			path = ButtonBar;
+			sourceTree = "<group>";
+		};
+		1FCB832D2C2B3B580093A0BF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB832E2C2B3B670093A0BF /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		1FCB83302C2B3B790093A0BF /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB83312C2B3B8A0093A0BF /* FolderViewController.swift */,
+				1F35B55E2C2EE1A70042DDA8 /* CreateFolderScreen.swift */,
+				1F35B5602C2F802D0042DDA8 /* NoteListViewController.swift */,
+			);
+			path = Folder;
 			sourceTree = "<group>";
 		};
 		7BA2159540D60E20565CFFA5 /* Pods */ = {
@@ -477,10 +522,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCB832C2C2B383B0093A0BF /* ButtonBar.swift in Sources */,
+				1FCB83322C2B3B8A0093A0BF /* FolderViewController.swift in Sources */,
+				1F560C952C2D99DC00F77C23 /* LoginViewController1.swift in Sources */,
 				1F5187DF2C29C4780084A605 /* LoginViewController.swift in Sources */,
 				1F5187A92C29BE110084A605 /* ViewController.swift in Sources */,
 				1F5187A52C29BE110084A605 /* AppDelegate.swift in Sources */,
 				1F5187A72C29BE110084A605 /* SceneDelegate.swift in Sources */,
+				1FCB832F2C2B3B670093A0BF /* SettingViewController.swift in Sources */,
+				1F35B5612C2F802D0042DDA8 /* NoteListViewController.swift in Sources */,
+				1F560C932C2D902800F77C23 /* KeychainManager.swift in Sources */,
+				1F35B55F2C2EE1A70042DDA8 /* CreateFolderScreen.swift in Sources */,
+				1F560C972C2DA07300F77C23 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
